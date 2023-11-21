@@ -11,11 +11,11 @@ Sirindhorn International Institute of Technology (SIIT), Thammasat University
     - [Overview](#overview)
     - [Application Stack](#application-stack)
     - [Cloud Services Usage](#cloud-services-usage)
-    -
+    
    
 - [Project Features](#project-features)
     - [Users](#users)
-    - 
+      
 - [Cloud Resources](#cloud-resources)
 
 - [Local Deployment](#local-deployment)
@@ -81,7 +81,7 @@ _
 
 ## Deliverables
 Please click the box in front of each topic to access the listed document.
-*These listed document is only accessible with ***SIIT*** email account*  
+
 - [[/]](https://drive.google.com/file/d/1h-T9NTyA9GwxvaMqUdwn2v7MWOLPTha9/view?usp=sharing) Kick-off Project Report
 - [[/]](https://drive.google.com/file/d/134FEbOzQIUFgJ_oEYinnjs4Kawbmnucr/view?usp=sharing) Kick-off Project Presentation
 - [[/]](https://drive.google.com/file/d/17IAO09pFB6VL-ch35T2H7y-4rDKazro9/view?usp=sharing) Final Project Report
