@@ -74,9 +74,17 @@ User Roles: Regular User
 6. Open the link that provided on github
 7. Test the system
 
+### Another Method For Installation
+1 Downlaod the repository 
+2 run through the website https://dash.infinityfree.com/accounts
+3 deploy the code into webbase
+4 deploy the task.sql into database on their cloud platform
+5 run the server
+6 test the server 
+
 
 ## Project Management
-The link to the JIRA board can be found [here]([https://paphana.atlassian.net/jira/software/projects/DTP/boards/1/roadmap?shared=&atlOrigin=eyJpIjoiNjQzZDhhOTQxZGY3NDdhMGE5ODQzZDAzYjMzY2E1YmYiLCJwIjoiaiJ9](https://trello.com/b/81oP5XLa/task-manage-project)).  
+The link to the JIRA board can be found [here](https://trello.com/invite/accept-board)).  
 _
 
 ## Deliverables
