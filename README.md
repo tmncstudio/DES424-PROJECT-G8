@@ -11,13 +11,13 @@ Sirindhorn International Institute of Technology (SIIT), Thammasat University
     - [Overview](#overview)
     - [Application Stack](#application-stack)
     - [Cloud Services Usage](#cloud-services-usage)
-    - [CI/CD Configuration](#cicd-configuration)
-    - [Software Testing and QA](#software-testing-and-qa)
+    -
+   
 - [Project Features](#project-features)
     - [Users](#users)
-    - [Admin](#admin)
+    - 
 - [Cloud Resources](#cloud-resources)
-- [Application Demo](#application-demo)
+
 - [Local Deployment](#local-deployment)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
@@ -43,8 +43,7 @@ The web application is deployed on AWS EC2 using the window OS
 
 
 
-### Software Testing and QA
-Test scripts are written using Robot Framework and Selenium Library to test the web application. Test scripts are located in the `robot test` folder.
+
 
 ## Project Features
 ### Users
@@ -64,112 +63,20 @@ User Roles: Regular User
 
 ## Local Deployment
 ### Prerequisites
-- Node.js v16 or higher
-- Azure Account with subscription and these resources:
-    - Azure Media Services
-    - Azure Storage Account
-    - Azure Cosmos DB for MongoDB
+- AWS EC2 INSTANCE 
 
 ### Installation
 1. Clone the repository
-2. Install dependencies for the backend
-```bash
-cd api
-npm install
-```
-3. Install dependencies for the frontend
-```bash
-cd ../client
-npm install
-```
-4. Create a `.env` file in the `api` folder and add the following environment variables
-```bash
-## These environment variables can be generated and found in the Azure Portal
+2. Run the current EC2 Instance as window operation
+3. Deploy the xampp download
+4. Apply the folder of repository into C:\xampp\htdocs
+5. Start the apache and MYSQL
+6. Open the link that provided on github
+7. Test the system
 
-APPINSIGHTS_INSTRUMENTATIONKEY= # Application Insights Instrumentation Key
-APPLICATIONINSIGHTS_CONNECTION_STRING= # Application Insights Connection String
-AZURE_ARM_ENDPOINT= # Azure Resource Manager Endpoint
-AZURE_ARM_TOKEN_AUDIENCE= # Azure Resource Manager Token Audience
-AZURE_CLIENT_ID= # Azure Client ID
-AZURE_CLIENT_SECRET= # Azure Client Secret
-AZURE_COSMOSDB_CONNECTION_STRING= # Azure Cosmos DB Connection String
-AZURE_MEDIA_SERVICES_ACCOUNT_NAME= # Azure Media Services Account Name
-AZURE_RESOURCE_GROUP= # Azure Resource Group
-AZURE_STORAGE_ACCOUNT_NAME= # Azure Storage Account Name
-AZURE_STORAGE_CONNECTION_STRING= # Azure Storage Connection String
-AZURE_SUBSCRIPTION_ID= # Azure Subscription ID
-AZURE_TENANT_DOMAIN= # Azure Tenant Domain
-AZURE_TENANT_ID= # Azure Tenant ID
-AzureWebJobsStorage= # Azure Web Jobs Storage
-OUTPUTCONTAINERSAS= # Output Container SAS
-REMOTESTORAGEACCOUNTSAS= # Remote Storage Account SAS
-WEBSITE_CONTENTAZUREFILECONNECTIONSTRING= # Website Content Azure File Connection String
-WEBSITE_CONTENTSHARE= # Website Content Share
-WEBSITE_NODE_DEFAULT_VERSION = "~16" # Website Node Default Version
-
-## Note for course instructor: If there is any problem, please contact us for the values of the environment variables. ##
-```
-5. Run the backend and the frontend
-```bash
-# Backend
-cd ../api
-npm start 
-
-# Backend will be running on port 5000
-```
-```bash
-# Frontend
-cd ../client
-npm start 
-# Frontend will be running on port 5000
-
-# - or - #
-
-cd ../client
-npm run build # Build the frontend
-npm install -g serve # Install serve
-serve -s build 
-
-# Frontend will be running on port 3000
-```
-6. Open the web application on `http://localhost:3000`
-7. Enjoy!
-8. (Optional) Run the test scripts. _Make sure the backend is running on port 5000, the frontend is running on port 3000 and installed robot framework, selenium library, and chromedriver._
-```bash
-# Check if robot framework and selenium library are installed
-robot --version
-
-# If not, install robot framework and selenium library
-pip install robotframework
-pip install robotframework-seleniumlibrary
-
-# Check if chromedriver is installed
-chromedriver --version
-
-# If not, install chromedriver
-```
-
-```bash
-# Run the test scripts
-## Some scripts require some varibles changes in the test scripts, such as new username and email and ABSOLUTE path of the sample video file. ##
-
-cd ../testing
-
-# Test login
-robot testLogin.robot
-
-# Test signup
-robot testSignup.robot
-
-# Test upload video and delete video
-robot testUploadVideoandDeleteVideo.robot
-
-# Test play video and like video
-robot testPlayandLikeVideo.robot
-```
 
 ## Project Management
-We used JIRA to manage our project. The link to the JIRA board can be found [here](https://paphana.atlassian.net/jira/software/projects/DTP/boards/1/roadmap?shared=&atlOrigin=eyJpIjoiNjQzZDhhOTQxZGY3NDdhMGE5ODQzZDAzYjMzY2E1YmYiLCJwIjoiaiJ9).  
+The link to the JIRA board can be found [here]([https://paphana.atlassian.net/jira/software/projects/DTP/boards/1/roadmap?shared=&atlOrigin=eyJpIjoiNjQzZDhhOTQxZGY3NDdhMGE5ODQzZDAzYjMzY2E1YmYiLCJwIjoiaiJ9](https://trello.com/b/81oP5XLa/task-manage-project)).  
 _
 
 ## Deliverables
