@@ -25,52 +25,42 @@ Sirindhorn International Institute of Technology (SIIT), Thammasat University
 - [Deliverables](#deliverables)
 
 ## Project Members
-- Thanyachanok Rachawongsuk [@thanyachanokr](https://github.com/thanyachanokr) (6222770313) (Role: Design & Document)
-- Paphana Yiwsiw [@waterthatfrozen](https://github.com/waterthatfrozen) (6222780379) (Role: Cloud, Backend & QA)
-- Kawiya Pholjaroen [@6222782425](https://github.com/6222782425) (6222782425) (Role: Frontend)
-- Time Kitilimtrakul [@6222790345](https://github.com/6222790345) (6222790345) (Role: Document & Management)
-- Levin Kaus [@levinKaus](https://github.com/levinKaus) (6522808210) (Role: Backend & Database)
+- Thanaphon Thongpan (6222775767)       (Role: Frontend, Backend)
+- Praveenasak Kammayee   (6222773467)   (Role: Backend, Cloud )
+-  Nanthawich Pitichaichan (6222773746) (Role: Presentation, Document)
+- Srisakul Prateepchinda (6222791617)   (Role: Document, Management)
+- Nannapat Panant (6522801120)          (Role: Backend, Database)
 
 ## Project Description
 ### Overview
-QikVid is a web application that allows users to upload and stream short-format videos. The web application is designed to be responsive and accessible on all devices.  
+Task Manage allows user to assign task and follow them through instruction which is really easy to use.
 
 ### Application Stack
-The web application is built using the MERN stack (MongoDB, Express, React, Node.js).
-Express.js and Node.js are used to build the backend of the web application, while React is used to build the frontend. MongoDB is used as the database to store the data of the web application. Frontend can be found in the `client` folder, while backend can be found in the `api` folder.
+The web application is built using the php, css). MySQL is used as the database to store the data of the web application. 
 
 ### Cloud Services Usage
-The web application is deployed on Microsoft Azure using the App Service and the MongoDB database is deployed on Microsoft Azure using the Cosmos DB. Azure Media Player is used to stream the videos on the web application.  
+The web application is deployed on AWS EC2 using the window OS
 
-### CI/CD Configuration
-CI/CD is implemented with Azure Static Web Apps and GitHub Actions to automatically deploy when a new commit is pushed to the main branch. Configuration files can be found in the `.github/workflows` folder.
+
 
 ### Software Testing and QA
-Test scripts are written using Robot Framework and Selenium Library to test the web application. Test scripts are located in the `testing` folder.
+Test scripts are written using Robot Framework and Selenium Library to test the web application. Test scripts are located in the `robot test` folder.
 
 ## Project Features
 ### Users
-- User can register and login to the web application.
-- User can upload a video to the web application.
-- A random video will be displayed on the homepage and the user can click on the video to watch it.
-- User can like a video and the number of likes will be displayed on the video.
-- User can view their profile and see the videos they have uploaded.
-- User can delete their videos.
 
-### Admin
-- Admin can deactivate a user account.
-- Admin can delete any videos.
+Feature: Allow users to create accounts and log in securely.
+Feature: Allow users to create new tasks with details such as title, description, due date, and priority.
+Feature: Support the creation and management of projects, allowing users to organize tasks within projects.
+Feature: Provide options to set task statuses (e.g., to-do, in-progress, completed) for better tracking.
+User Roles: Regular User
+
 
 ## Cloud Resources
-- Azure App Service for hosting the backend web application
-- Azure Static Web Apps for hosting the frontend of the web application
-- DNS Zone for creating a custom domain name for the web application
-- Azure Cosmos DB for MongoDB for storing the data of the web application
-- Azure Storage Account for storing the uploaded videos
-- Azure Media Services for encoding and streaming the uploaded videos
+- Amazon EC2 for host the frontend of the web application
+- XAMPP for hosting the backend for all information
 
-## Application Demo
-[QikVid on Azure App Services](https://qikvid.azurewebsites.net/) or [QikVid on Azure Static Web Apps](https://yellow-island-01d23da00.2.azurestaticapps.net/)
+
 
 ## Local Deployment
 ### Prerequisites
@@ -180,7 +170,7 @@ robot testPlayandLikeVideo.robot
 
 ## Project Management
 We used JIRA to manage our project. The link to the JIRA board can be found [here](https://paphana.atlassian.net/jira/software/projects/DTP/boards/1/roadmap?shared=&atlOrigin=eyJpIjoiNjQzZDhhOTQxZGY3NDdhMGE5ODQzZDAzYjMzY2E1YmYiLCJwIjoiaiJ9).  
-__Note:__ The JIRA board is only accessible to the course instructor and the team members.
+_
 
 ## Deliverables
 Please click the box in front of each topic to access the listed document.
