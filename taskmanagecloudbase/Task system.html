@@ -1,0 +1,86 @@
+
+<!-- saved from url=(0046)http://localhost/taskmanagecloudbase/login.php -->
+<html lang="pl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Task system</title>
+    <link href="./Task system_files/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./Task system_files/custom.css">
+
+    <script src="./Task system_files/jquery.min.js.ดาวน์โหลด"></script>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<style>
+    /* Add your CSS styles here */
+    .loginContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Adjust as needed */
+    }
+
+    .login-box {
+        text-align: center;
+    }
+
+    .input-box {
+        margin-bottom: 15px;
+    }
+
+    /* Styling for buttons */
+    button, .register-button a {
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-bottom: 15px; /* Add margin to separate buttons */
+    }
+
+    /* Styling for Register button */
+    .register-button a {
+        background-color: #4285F4; /* Change color as needed */
+    }
+</style>
+
+<div class="container loginContainer">
+    <div class="login-box">
+        <h1>Task Manage</h1>
+        
+        <h1></h1>
+        <form method="post" action="http://localhost/taskmanagecloudbase/loginValidation.php">
+            <div class="input-box">
+                <label for="login">Login:</label>
+                <input type="text" name="login">
+            </div>
+            <div class="input-box">
+                <label for="password">Password:</label>
+                <input type="password" name="password">
+            </div>
+            <button type="submit">Log in</button>
+        </form>
+            </div>
+
+    <!-- Move Register button below Login button -->
+    <div class="register-button">
+        <a href="http://localhost/taskmanagecloudbase/register.php">Register</a>
+    </div>
+</div>
+
+    <script src="./Task system_files/custom.js.ดาวน์โหลด"></script>
+
+</body></html>
