@@ -75,24 +75,18 @@ User Roles: Regular User
 7. Test the system
 
 ### Another Method For Installation
-1 Downlaod the repository 
-2 run through the website https://dash.infinityfree.com/accounts
-3 deploy the code into webbase
-4 deploy the task.sql into database on their cloud platform
-5 run the server
-6 test the server 
+
+1. Download the repository 
+2. Run through the website https://dash.infinityfree.com/accounts
+3. Deploy the code to webbase 
+4. Deploy the task SQL to database on the cloud platform
+5. Test the server
+
+
 
 
 ## Project Management
 The link to the JIRA board can be found [here](https://trello.com/invite/accept-board)).  
 _
 
-## Deliverables
-Please click the box in front of each topic to access the listed document.
 
-- [[/]](https://drive.google.com/file/d/1h-T9NTyA9GwxvaMqUdwn2v7MWOLPTha9/view?usp=sharing) Kick-off Project Report
-- [[/]](https://drive.google.com/file/d/134FEbOzQIUFgJ_oEYinnjs4Kawbmnucr/view?usp=sharing) Kick-off Project Presentation
-- [[/]](https://drive.google.com/file/d/17IAO09pFB6VL-ch35T2H7y-4rDKazro9/view?usp=sharing) Final Project Report
-- [[/]](https://drive.google.com/file/d/1bPUdsWznhZyl_C9msrJdH8oQIjjZu2tm/view?usp=sharing) Final Project Presentation
-- [[/]](https://drive.google.com/file/d/1uoUwIvTd58zyP-CuEygsWvEFG8TCxXgr/view?usp=sharing) User Manual
----
